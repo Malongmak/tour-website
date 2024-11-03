@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maasai Mara Tours</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Explore Maasai Mara</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#tours">Tours</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Discover the Beauty of Maasai Mara</h2>
+        <p>Join us for an unforgettable adventure!</p>
+        <a href="#tours" class="cta-button">Book Your Tour</a>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Maasai Mara</h2>
+        <p>
+            The Maasai Mara is one of the most famous wildlife reserves in the world, known for its incredible biodiversity and the Great Migration.
+        </p>
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31515.66363707709!2d35.0200262999926!3d-1.4068312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1814af3e5f5b69d5%3A0x36c9de6346d2da16!2sMaasai%20Mara%20National%20Reserve!5e0!3m2!1sen!2suk!4v1635340163453!5m2!1sen!2suk" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <section id="tours">
+        <h2>Our Tours</h2>
+        <div class="tour">
+            <h3>Wildlife Safari</h3>
+            <p>Experience the thrill of wildlife viewing in their natural habitat!</p>
+            <button onclick="bookTour('Wildlife Safari')">Book Now</button>
+        </div>
+        <div class="tour">
+            <h3>Hot Air Balloon Ride</h3>
+            <p>Soar above the Mara for breathtaking views at sunrise.</p>
+            <button onclick="bookTour('Hot Air Balloon Ride')">Book Now</button>
+        </div>
+        <div class="tour">
+            <h3>Maasai Cultural Tour</h3>
+            <p>Immerse yourself in Maasai culture and traditions.</p>
+            <button onclick="bookTour('Maasai Cultural Tour')">Book Now</button>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="images">
+            <img src="https://www.andbeyond.com/wp-content/uploads/sites/5/Africa-Kenya-Masai-Mara-Cheetah-on-termite-mound.jpg" alt="Cheetah in Maasai Mara">
+            <img src="https://www.eastafricasafaristours.com/wp-content/uploads/2021/06/Maasai-Mara.jpg" alt="Maasai Mara Landscape">
+            <img src="https://www.safaris-uganda.com/wp-content/uploads/2022/05/Mara-tour-Kenya-Safari.jpg" alt="Maasai Mara Safari">
+            <img src="https://www.tripsavvy.com/thmb/zO0A95oa05QOXLnAcfX9Al11dts=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-906759050-2184f8cd91e94f749b7251a37575ef23.jpg" alt="Maasai Mara Sunset">
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial">
+            <p>"An unforgettable experience! The wildlife was breathtaking." - James Gatluak</p>
+        </div>
+        <div class="testimonial">
+            <p>"The hot air balloon ride was magical! Highly recommend." - David Nhial</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Maasai Mara Tours. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
